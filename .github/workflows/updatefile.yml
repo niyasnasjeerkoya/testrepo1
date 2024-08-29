@@ -11,6 +11,6 @@ jobs:
     steps:
       - name: updatefile
         run: |
-          pwd
+          ls -lrt
         
     
