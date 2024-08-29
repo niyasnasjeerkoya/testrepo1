@@ -13,7 +13,7 @@ jobs:
         run: |
           ls -lrt
           pwd
-          cd /home/runner/work/
+          cd /home/runner/work/testrepo1/testrepo1
           ls -lrt
           
         
