@@ -12,6 +12,7 @@ jobs:
       - name: updatefile
         run: |
           ls -lrt
-          echo ${{ github.repository }}
+          cd ${{ github.repository }}
+          ls -lrt
         
     
