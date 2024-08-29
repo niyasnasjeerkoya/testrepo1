@@ -1,0 +1,16 @@
+name: update file
+
+on:
+  push:
+    branches:
+      - main
+
+jobs:
+  updatefile:
+    runs-on: ubuntu-latest
+    steps:
+      - name: updatefile
+        run: |
+          ls
+        
+    
