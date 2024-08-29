@@ -12,7 +12,7 @@ jobs:
       - name: updatefile
         run: |
           ls -lrt
-          cd ${{ github.GITHUB_ACTION_REPOSITORY }}
+          cd ${{ github.GITHUB_PATH }}
           ls -lrt
         
     
