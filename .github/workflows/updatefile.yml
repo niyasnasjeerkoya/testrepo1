@@ -12,6 +12,6 @@ jobs:
       - name: updatefile
         run: |
           ls -lrt
-          echo "${{GITHUB_ACTION_REPOSITORY}}"
+          echo "${{github.GITHUB_ACTION_REPOSITORY}}"
         
     
